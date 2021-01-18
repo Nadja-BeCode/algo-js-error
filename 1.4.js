@@ -1,13 +1,8 @@
 const readline = require("readline-sync")
-let userName = readline . question ("Quel est votre nom?");
-console.log( "Mon nom est " + userName);
+let name = readline . question ("What's your name ?");
 
-const readline = require("readline-sync")
-let userName = readline . question ("Quest est votre prénom?");
-console.log( "Mon prénom est " + userName);
+let firstName = readline . question ("And your first name?");
 
-const readline = require("readline-sync")
-let userName = readline . question ("Où habitez-vous?");
-console.log( "J'habite à " + userName);
+let city = readline . question ("Where do you live?");
 
-//DOESN'T WORK I NEED TO VERIFY AGAIN//
+console.log( "My name is " + name + " and my first name is " + firstName + " I live in " + city);

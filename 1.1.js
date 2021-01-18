@@ -1,2 +1,2 @@
-let âge = 7;
+let age = 7;
 
